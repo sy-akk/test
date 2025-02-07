@@ -106,7 +106,3 @@ deploy:
   repo: https://github.com/sy-akk/test.git
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-
-# GitHub Actions
-- name: Print Hello
-  run: echo "Hello"
